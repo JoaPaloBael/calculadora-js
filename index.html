@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/Calculator_30001.webp" type="image/x-icon">
 </head>
+
 <body>
     <h1>Calculadora con JS</h1>
     <h2>By: Johanna Palo</h2>
     <main class="calculadora">
         <input type="text" id="pantalla" readonly value="">
+        <div id="reset">
+            <input type="button" value="Reset" onclick="borrar()">
+        </div>
         <div id="botones">
             <input type="button" value="1" onclick="agregar('1')">
             <input type="button" value="2" onclick="agregar('2')">
@@ -29,10 +34,11 @@
             <input type="button" value="." onclick="agregar('.')">
             <input type="button" value="=" onclick="calcular()">
             <input type="button" value="+" onclick="agregar('+')">
-            <input type="button" value="Reset" onclick="borrar()">
+
         </div>
     </main>
 
     <script src="./js/calculadora.js"></script>
 </body>
+
 </html>

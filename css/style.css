@@ -48,3 +48,15 @@ main #botones input:hover{
     background-color: rgb(216, 215, 215);
     font-weight: bold;
 }
+
+#reset{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+#reset input{
+    padding: 0 5px;
+    border-radius: 15px;
+    margin: 0 2.5px;
+}
+
